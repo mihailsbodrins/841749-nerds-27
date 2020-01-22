@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Mihails Bodrins](https://up.htmlacademy.ru/htmlcss/27/user/841749).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Тюлихова](https://htmlacademy.ru/profile/id523263).
 
 ---
 
