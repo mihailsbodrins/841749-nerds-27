@@ -115,14 +115,30 @@
     <footer>
       <section>
         <h2 class="visually-hidden">Контактная информация</h2>
-        <p>
-          Nёrds design studio
-          191186, Санкт-Петербург,
-          ул. Б. Конюшенная, д. 19/8
-          тел. +7(812)275-75-75
-        </p>
+        <div class="">
+          <p>
+            Nёrds design studio
+            191186, Санкт-Петербург,
+            ул. Б. Конюшенная, д. 19/8
+            тел. +7(812)275-75-75
+          </p>
+          <a href="#">Напишите нам</a>
+        </div>
             <img src="img/map.png" wieght="1440" height="416" alt="Картинка карты">
             <img src="img/map-marker.png" wieght="231" height="190" alt="Лого Нёрдс">
+      </section>
+      <section class="modal">
+        <h1>Напишите нам</h1>
+        <form class="" action="index.html" method="post">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email" placeholder="email@example.com">
+          <label for="letter">Текст письма:</label>
+          <textarea id="letter" name="letter" rows="3" placeholder="В свободной форме"></textarea>
+          <buttom type="submit" value="Отправить">
+        </form>
+        <button class="modal-close" type="button"></button>
       </section>
       <ul>
         <li>
@@ -186,18 +202,4 @@
     <li><a href="#"></a></li>
     <li><a></a></li>
   </ul>
-</div>
-
-
-<div>
-  <h1>Напишите нам</h1>
-  <form class="" action="index.html" method="post">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" name="name" value="Имя Фамилия">
-    <label for="email">Ваш e-mail:</label>
-    <input type="email" name="email" id="email" value="email@example.com">
-    <label for="letter">Текст письма:</label>
-    <textarea id="letter" name="letter" rows="3" placeholder="В свободной форме"></textarea>
-    <input type="submit" value="Отправить">
-  </form>
 </div>
