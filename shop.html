@@ -28,8 +28,7 @@
       <h1 class="page-title">Магазин готовых шаблонов</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр шаблонов</h2>
-          <div>
-            <form class="" action="#" method="get">
+          <!--<div>
               <p><b>Стоимость:<b></p>
               <input type="range" min="0" max="15000" step="100" id="number-field"> не разобрался
               <label for="number-field">от</label>
@@ -45,27 +44,22 @@
                 <input type="image" src="img/icon-down-dir.svg" alt="max">
                 <input type="image" src="img/icon-down-dir.svg" alt="min">
               </li>
-            </ul>
+            </ul>-->
+            <form class="filter" action="#" method="get">
             <fieldset>
               <legend>Сетка:</legend>
               <ul>
                 <li>
                   <input type="radio" name="net" value="adaptive" checked id="adaptive">
-                  <label for="adaptive">
-                    Адаптивная
-                  </label>
+                  <label for="adaptive">Адаптивная</label>
                 </li>
                 <li>
                   <input type="radio" name="net" value="fixed" id="fixed">
-                  <label for="fixed">
-                    Фиксированная
-                  </label>
+                  <label for="fixed">Фиксированная</label>
                 </li>
                 <li>
                   <input type="radio" name="net" value="rubber" id="rubber">
-                  <label for="rubber">
-                    Резиновая
-                  </label>
+                  <label for="rubber">Резиновая</label>
                 </li>
               </ul>
             </fieldset>
@@ -94,7 +88,7 @@
                 </li>
               </ul>
             </fieldset>
-            <button type="submit">Показать</button>
+            <button class="filter-button button" type="submit">Показать</button>
           </form>
           </div>
       </section>
@@ -200,8 +194,22 @@
           ул. Б. Конюшенная, д. 19/8
           тел. +7(812)275-75-75
         </p>
+        <a href="#">Напишите нам</a>
         <img src="img/map.png" wieght="1440" height="416" alt="Карта">
         <img src="img/map-marker.png" wieght="231" height="190" alt="Нёрдс">
+      </section>
+      <section class="modal">
+        <h1>Напишите нам</h1>
+        <form class="modal-connection" action="index.html" method="post">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email" placeholder="email@example.com">
+          <label for="letter">Текст письма:</label>
+          <textarea id="letter" name="letter" rows="3" placeholder="В свободной форме"></textarea>
+          <buttom type="submit" value="Отправить">
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
       </section>
       <ul>
         <li>
