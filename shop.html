@@ -42,37 +42,56 @@
                 <input type="image" src="img/icon-down-dir.svg" alt="min">
               </li>
             </ul>
-              <p><b>Сетка:</b></p>
-              <label>
-                <input type="radio" name="net" value="adaptive" checked>
-                Адаптивная
-              </label>
-              <label>
-                <input type="radio" name="net" value="fixed">
-                Фиксированная
-              </label>
-              <label>
-                <input type="radio" name="net" value="rubber">
-                Резиновая
-              </label>
-              <p><b>Особенности:</b></p>
-              <input type="checkbox" name="slider" id="slider-field">
-              <label for="slider-field">Слайдер</label>
-
-              <input type="checkbox" name="advantage" id="advantage-field">
-              <label for="advantage-field">Блок преимуществ</label>
-
-              <input type="checkbox" name="news" id="news-field">
-              <label for="news-field">Новости</label>
-
-              <input type="checkbox" name="gallery" id="gallery-field">
-              <label for="gallery-field">Галерея</label>
-
-              <input type="checkbox" name="basket" id="basket-field">
-              <label for="basket-field">Корзина</label>
-
-              <input type="submit" value="Показать">
-            </form>
+            <fieldset>
+              <legend>Сетка:</legend>
+              <ul>
+                <li>
+                  <input type="radio" name="net" value="adaptive" checked id="adaptive">
+                  <label for="adaptive">
+                    Адаптивная
+                  </label>
+                </li>
+                <li>
+                  <input type="radio" name="net" value="fixed" id="fixed">
+                  <label for="fixed">
+                    Фиксированная
+                  </label>
+                </li>
+                <li>
+                  <input type="radio" name="net" value="rubber" id="rubber">
+                  <label for="rubber">
+                    Резиновая
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Особенности:</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" name="features" id="slider-field">
+                  <label for="slider-field">Слайдер</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="features" id="advantage-field">
+                  <label for="advantage-field">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="features" id="news-field">
+                  <label for="news-field">Новости</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="features" id="gallery-field">
+                  <label for="gallery-field">Галерея</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="features" id="basket-field">
+                  <label for="basket-field">Корзина</label>
+                </li>
+              </ul>
+            </fieldset>
+            <button type="submit">Показать</button>
+          </form>
           </div>
       </section>
       <section class="catalog">
