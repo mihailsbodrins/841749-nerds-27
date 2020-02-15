@@ -28,73 +28,87 @@
       <h1 class="page-title">Магазин готовых шаблонов</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр шаблонов</h2>
-          <fieldset>
-            <legend>Стоимость:</legend>
-              <input type="range" min="0" max="25000" step="100" id="number-field">
-              <label for="number-field">от</label>
-              <input type="text" name="number-field" id="number-field">
-              <label for="number-field">до</label>
-              <input type="text" name="number field" id="number-field" max="15000">
-          </fieldset>
-            <fieldset>
-
-
-            <h3>Сортировать:</h3>
+        <div class="cost">
+          <p>Стоимость:</p>
+          <div class="range-slider">
+            <span class="range-slider-pin-min"></span>
+            <span class="range-slider-pin-max"></span>
+            <label for="number-fieldr">от</label>
+            <input type="number" name="min" id="number-field" min="0" max="25 000">
+            <label for="number-field">до</label>
+            <input type="number" name="max" id="number-field" min="0" max="25 000">
+        </div>
+        <fieldset>
+          <lagend>Сортировать:</lagend>
+          <ul>
+            <li>
+              <input type="radio"  name="sort" value="price" id="price">
+              <label for="price">По цене</label>
+            </li>
+            <li>
+              <input type="radio" name"sort" value="types" id="types">
+              <label for="types">По типу</label>
+            </li>
+            <li>
+              <input type="radio" name="sort" value="name" id="name">
+              <label for="name">По названию</label>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <input type="image" src="img/icon-down-dir.svg" alt="min">
+            </li>
+            <li>
+              <input type="image" src="img/icon-down-dir.svg" alt="max">
+            </li>
+          </ul>
+        </fieldset>
+        <form class="filter" action="#" method="get">
+        <fieldset>
+          <legend>Сетка:</legend>
             <ul>
-              <li><button>По цене</button></li>
-              <li><button>По типу</button></li>
-              <li><button>По названию</button></li>
               <li>
-                <input type="image" src="img/icon-down-dir.svg" alt="min">
+                <input type="radio" name="net" value="adaptive" checked id="adaptive">
+                <label for="adaptive">Адаптивная</label>
               </li>
-            </ul>-->
-            </fieldset>
-            <form class="filter" action="#" method="get">
-            <fieldset>
-              <legend>Сетка:</legend>
-              <ul>
-                <li>
-                  <input type="radio" name="net" value="adaptive" checked id="adaptive">
-                  <label for="adaptive">Адаптивная</label>
-                </li>
-                <li>
-                  <input type="radio" name="net" value="fixed" id="fixed">
-                  <label for="fixed">Фиксированная</label>
-                </li>
-                <li>
-                  <input type="radio" name="net" value="rubber" id="rubber">
-                  <label for="rubber">Резиновая</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset>
-              <legend>Особенности:</legend>
-              <ul>
-                <li>
-                  <input type="checkbox" name="slider" id="slider-field" checked>
-                  <label for="slider-field">Слайдер</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="advantage" id="advantage-field">
-                  <label for="advantage-field">Блок преимуществ</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="news" id="news-field" checked>
-                  <label for="news-field">Новости</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="gallery" id="gallery-field">
-                  <label for="gallery-field">Галерея</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="basket" id="basket-field">
-                  <label for="basket-field">Корзина</label>
-                </li>
-              </ul>
-            </fieldset>
-            <button class="filter-button button" type="submit">Показать</button>
-          </form>
-          </div>
+              <li>
+                <input type="radio" name="net" value="fixed" id="fixed">
+                <label for="fixed">Фиксированная</label>
+              </li>
+              <li>
+                <input type="radio" name="net" value="rubber" id="rubber">
+                <label for="rubber">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="slider" id="slider-field" checked>
+                <label for="slider-field">Слайдер</label>
+              </li>
+              <li>
+                <input type="checkbox" name="advantage" id="advantage-field">
+                <label for="advantage-field">Блок преимуществ</label>
+              </li>
+              <li>
+                <input type="checkbox" name="news" id="news-field" checked>
+                <label for="news-field">Новости</label>
+              </li>
+              <li>
+                <input type="checkbox" name="gallery" id="gallery-field">
+                <label for="gallery-field">Галерея</label>
+              </li>
+              <li>
+                <input type="checkbox" name="basket" id="basket-field">
+                <label for="basket-field">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="filter-button button" type="submit">Показать</button>
+        </form>
+        </div>
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Список шаблонов</h2>
