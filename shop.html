@@ -30,14 +30,21 @@
         <h2 class="visually-hidden">Фильтр шаблонов</h2>
         <div class="cost">
           <p>Стоимость:</p>
-          <div class="range-slider">
-            <span class="range-slider-pin-min"></span>
-            <span class="range-slider-pin-max"></span>
-            <label for="number-fieldr">от</label>
-            <input type="number" name="min" id="number-field" min="0" max="25 000">
-            <label for="number-field">до</label>
-            <input type="number" name="max" id="number-field" min="0" max="25 000">
-        </div>
+          <div>
+            <div class="range-slider">
+              <div class="scale">
+                <span class="range-slider-pin-min"></span>
+                <span class="active-scale"></span>
+                <span class="range-slider-pin-max"></span>
+              </div>
+            </div>
+            <div>
+              <label for="number-fieldr">от</label>
+              <input type="number" name="min" id="number-field" min="0" max="25 000">
+              <label for="number-field">до</label>
+              <input type="number" name="max" id="number-field" min="0" max="25 000">
+            </div>
+          </div>
         <fieldset>
           <lagend>Сортировать:</lagend>
           <ul>
