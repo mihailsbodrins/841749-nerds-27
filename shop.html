@@ -39,39 +39,14 @@
               </div>
             </div>
             <div>
-              <label for="number-fieldr">от</label>
+              <label for="number-field">от</label>
               <input type="number" name="min" id="number-field" min="0" max="25 000">
               <label for="number-field">до</label>
               <input type="number" name="max" id="number-field" min="0" max="25 000">
             </div>
           </div>
-        <fieldset>
-          <lagend>Сортировать:</lagend>
-          <ul>
-            <li>
-              <input type="radio"  name="sort" value="price" id="price">
-              <label for="price">По цене</label>
-            </li>
-            <li>
-              <input type="radio" name"sort" value="types" id="types">
-              <label for="types">По типу</label>
-            </li>
-            <li>
-              <input type="radio" name="sort" value="name" id="name">
-              <label for="name">По названию</label>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <input type="image" src="img/icon-down-dir.svg" alt="min">
-            </li>
-            <li>
-              <input type="image" src="img/icon-down-dir.svg" alt="max">
-            </li>
-          </ul>
-        </fieldset>
-        <form class="filter" action="#" method="get">
-        <fieldset>
+          <form class="filter" action="#" method="get">
+          <fieldset>
           <legend>Сетка:</legend>
             <ul>
               <li>
@@ -119,6 +94,28 @@
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Список шаблонов</h2>
+        <div class="filter">
+          <p>Сортировать:</p>
+          <ul>
+            <li>
+              <a href="#">По цене</a>
+            </li>
+            <li>
+              <a href="#">По типу</a>
+            </li>
+            <li>
+              <a href="#">По названию</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="arow-up" href="#">по возрастанию</a>
+            </li>
+            <li>
+              <a class="arow-down" href="#">по убыванию</a>
+            </li>
+          </ul>
+        </div>
         <ul class="catalog-list">
           <li class="catalog-template">
             <a href="#">
