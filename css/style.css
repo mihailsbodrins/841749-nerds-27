@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding-right: 0;
 
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
 
   font-size: 16px;
   line-height: 24px;
@@ -15,16 +15,52 @@ a {
   text-decoration: none;
 }
 
-header {
+.main-header {
   background-color: #eeeeee;
 }
 
-.site-navigation,
-.site-cart {
+.main-navigation {
   font-size: 16px;
   line-height: 30px;
 
   background-color: #eeeeee;
-
+}
+.site-navigation,
+.cart-navigation {
   list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.cart-navigation a:hover,
+.cart-navigation a:focus {
+  color: #ff0000;
+  background-color: #eeeeee;
+
+}
+
+.site-navigation a:active,
+.cart-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.offers {
+  list-style: none;
+}
+
+.offers {
+  text-align: left;
+}
+
+.offer h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.offer a {
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
 }
