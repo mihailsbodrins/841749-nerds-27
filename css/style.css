@@ -60,9 +60,9 @@ a {
 }
 
 .offer a {
-  padding: 19px 39px 18px 39px;
+  padding: 16px 39px;
 
-  line-height: 18px;
+  line-height: 16px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
