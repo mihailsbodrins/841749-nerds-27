@@ -60,7 +60,25 @@ a {
 }
 
 .offer a {
+  padding: 19px 39px 18px 39px;
+
   line-height: 18px;
   text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.offer .offer-red {
+  background-color: #fb565a;
+}
+
+.offer .offer-green {
+  background-color: #00ca74;
+}
+
+.offer .offer-yellow {
+  background-color: #efc84a;
 }
