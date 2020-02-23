@@ -82,3 +82,64 @@ a {
 .offer .offer-yellow {
   background-color: #efc84a;
 }
+
+.advantage .advantage-slogan {
+  font-size: 45px;
+  line-height: 45px;
+  text-align: left;
+}
+.advantage .advantage-abilities {
+  font-size: 16px;
+  line-height: 47px;
+}
+
+.advantage-abilities h3 {
+  text-transform: uppercase;
+}
+
+.advantage-illustration p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantage-illustration dd {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer-social {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-social .social-button {
+  background-color: #e1e1e1;}
+
+.footer-social .social-button:hover,
+.footer-social .social-button:focus {
+  background-color: #e74246;
+}
+
+.footer-social .social-button:active {
+  color: rgba(0, 1, 1, 0.1)
+
+  background-color: #d7373b;
+}
+
+.footer-friendship p {
+  text-align: left;
+}
+
+.footer-friendship p:first-child {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.footer-friendship p {
+  line-height: 22px;
+}
