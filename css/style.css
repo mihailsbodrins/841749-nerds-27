@@ -148,6 +148,9 @@ a {
   text-align: center;
 }
 
+.catalog div{
+  background-color: #eeeeee;
+}
 .catalog h3 {
   font-size: 18px;
   font-weight: bold;
