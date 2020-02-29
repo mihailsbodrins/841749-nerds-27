@@ -88,25 +88,33 @@ a {
   font-weight: 500;
   line-height: 45px;
   text-align: left;
-  text-transform: uppercase;
+  color: #000000;
 }
 
+.advantage p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
 .advantage .advantage-abilities {
   font-size: 16px;
   line-height: 24px;
+  color: #283136;
 }
 
 .advantage h3 {
   font-weght: bold;
   text-transform: uppercase;
+  color: #000000;
 }
 
-.advantage-illustration p {
+.advantage-illustration .statistics {
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .advantage-illustration dd {
@@ -115,9 +123,24 @@ a {
   text-align: left;
 }
 
+.advantage-illustration dt {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.contacts span {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .contacts p {
   font-size: 16px;
   line-height: 18px;
+  color: #666666;
 }
 
 .contacts .button {
@@ -131,16 +154,11 @@ a {
   background-color: #fb565a;
 }
 
-.contacts span {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
 .inner-page h1 {
   font-size: 55px;
+  font-weight: 500;
   line-height: 55px;
+  text-align: center;
 
   background-color: #eeeeee;
 }
@@ -222,7 +240,7 @@ a {
   background-color: #fb565a;
 }
 
-.footer-social {
+.footer-social ul{
   list-style: none;
   text-align: center;
 }
@@ -249,6 +267,7 @@ a {
   font-size: 36px;
   font-weight: bold;
   line-height: 36px;
+  color: #000000;
 }
 
 .footer-friendship p {
