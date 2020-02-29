@@ -253,4 +253,21 @@ a {
 
 .footer-friendship p {
   line-height: 22px;
+  color: #444444;
+}
+
+.modal h2 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.modal form {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.modal placeholder {
+  color: rgba(68, 68, 68, 0.5);
 }
