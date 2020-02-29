@@ -85,15 +85,19 @@ a {
 
 .advantage .advantage-slogan {
   font-size: 45px;
+  font-weight: 500;
   line-height: 45px;
   text-align: left;
-}
-.advantage .advantage-abilities {
-  font-size: 16px;
-  line-height: 47px;
+  text-transform: uppercase;
 }
 
-.advantage-abilities h3 {
+.advantage .advantage-abilities {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.advantage h3 {
+  font-weght: bold;
   text-transform: uppercase;
 }
 
@@ -110,6 +114,19 @@ a {
   font-weight: bold;
   text-align: left;
 }
+
+.contacts p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.contacts span {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
 .inner-page h1 {
   font-size: 55px;
   line-height: 55px;
@@ -167,6 +184,28 @@ a {
 .catalog span {
   font-size: 16px;
   line-height: 18px;
+  color: #ffffff;
+
+  background-color: #fb565a;
+}
+
+.slides p:first-child {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.slides p:last-child {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.slides a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
 
   background-color: #fb565a;
