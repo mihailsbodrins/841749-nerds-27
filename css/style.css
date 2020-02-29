@@ -170,6 +170,18 @@ a {
   text-transform: uppercase;
 }
 
+.number-field label {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #283136;
+}
+
+.cost .range-slider,
+.number-field input {
+  background-color: #eeeeee;
+}
+
 .filter fieldset {
   border: none;
 }
@@ -194,6 +206,25 @@ a {
   text-align: center;
 }
 
+.filter p {
+  front-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.filter-current a {
+  color: #000000;
+}
+
 .catalog-list {
   list-style: none;
 }
@@ -208,7 +239,7 @@ a {
   text-transform: uppercase;
 }
 
-.catalog p {
+.catalog-list p {
   font-size: 16px;
   line-height: 18px;
   color: #666666;
@@ -232,6 +263,9 @@ a {
   text-align: center;
 
   background-color: #eeeeee;
+}
+.pagination-list .pagination-item-current {
+  background-color: #ffffff;
 }
 
 .slides p:first-child {
