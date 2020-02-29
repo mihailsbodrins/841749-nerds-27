@@ -194,7 +194,11 @@ a {
   text-align: center;
 }
 
-.catalog div{
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-list div{
   background-color: #eeeeee;
 }
 .catalog h3 {
@@ -216,6 +220,18 @@ a {
   color: #ffffff;
 
   background-color: #fb565a;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-list .pagination-item {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  background-color: #eeeeee;
 }
 
 .slides p:first-child {
