@@ -5,43 +5,68 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
 
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px;
-  color: #000000;
-
-  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
 }
 
-.main-header {
-  background-color: #eeeeee;
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
 }
 
 .main-navigation {
-  font-size: 16px;
+  font-weight: 500;
   line-height: 30px;
+  text-transform: uppercase;
 
   background-color: #eeeeee;
 }
+
 .site-navigation,
 .cart-navigation {
   list-style: none;
+}
+
+.site-navigation a,
+.cart-navigation a {
+  color: #000000;
 }
 
 .site-navigation a:hover,
 .site-navigation a:focus,
 .cart-navigation a:hover,
 .cart-navigation a:focus {
-  color: #ff0000;
-  background-color: #eeeeee;
-
+  color: #fb565a;
 }
 
 .site-navigation a:active,
 .cart-navigation a:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.slides p:first-child {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.slides a {
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #fb565a;
 }
 
 .offers {
@@ -92,13 +117,9 @@ a {
 }
 
 .advantage p {
-  font-size: 16px;
-  line-height: 24px;
   color: #283136;
 }
 .advantage .advantage-abilities {
-  font-size: 16px;
-  line-height: 24px;
   color: #283136;
 }
 
@@ -109,9 +130,7 @@ a {
 }
 
 .advantage-illustration .statistics {
-  font-size: 16px;
   font-weight: bold;
-  line-height: 24px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -124,8 +143,6 @@ a {
 }
 
 .advantage-illustration dt {
-  font-size: 16px;
-  line-height: 24px;
   color: #283136;
 }
 
@@ -138,13 +155,11 @@ a {
 }
 
 .contacts p {
-  font-size: 16px;
   line-height: 18px;
   color: #666666;
 }
 
 .contacts .button {
-  font-size: 16px;
   font-weight: 500;
   line-height: 18px;
   text-align: center;
@@ -171,7 +186,6 @@ a {
 }
 
 .number-field label {
-  font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
   color: #283136;
@@ -195,13 +209,11 @@ a {
 
 .filter ul {
   list-style: none;
-  font-size: 16px;
   line-height: 30px;
   color: #283136;
 }
 
 .filter-button .button {
-  font-size: 16px;
   line-height: 20px;
   text-align: center;
 }
@@ -240,13 +252,11 @@ a {
 }
 
 .catalog-list p {
-  font-size: 16px;
   line-height: 18px;
   color: #666666;
 }
 
 .catalog span {
-  font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 
@@ -258,7 +268,6 @@ a {
 }
 
 .pagination-list .pagination-item {
-  font-size: 16px;
   line-height: 18px;
   text-align: center;
 
@@ -266,28 +275,6 @@ a {
 }
 .pagination-list .pagination-item-current {
   background-color: #ffffff;
-}
-
-.slides p:first-child {
-  font-size: 55px;
-  font-weight: 500;
-  line-height: 55px;
-}
-
-.slides p:last-child {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.slides a {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-
-  background-color: #fb565a;
 }
 
 .footer-social ul{
@@ -332,7 +319,6 @@ a {
 }
 
 .modal form {
-  font-size: 16px;
   font-weight: bold;
   line-height: 18px;
 }
